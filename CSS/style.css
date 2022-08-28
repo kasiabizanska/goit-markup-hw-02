@@ -52,7 +52,11 @@ body {
   color: var(--header-color);
 }
 
-.listed-menu-link:hover .listed-menu-link:focus {
+.listed-menu-link:hover {
+  color: var(--blue);
+}
+
+.listed-menu-link:focus {
   color: var(--blue);
 }
 
