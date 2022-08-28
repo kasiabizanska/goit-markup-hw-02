@@ -26,7 +26,6 @@ body {
 
 .logo-web {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -38,7 +37,6 @@ body {
 .logo-studio {
   color: var(--header-color);
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -47,7 +45,6 @@ body {
 
 .listed-menu-link {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -55,16 +52,11 @@ body {
   color: var(--header-color);
 }
 
-.listed-menu-link:hover {
-  color: var(--blue);
-}
-
-.listed-menu-link:focus {
+.listed-menu-link:hover .listed-menu-link:focus {
   color: var(--blue);
 }
 
 .listed-menu-address {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
